@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 class="text-center text-gray-800 text-2x1 font-mediun">Detalles del producto seleccionado: </h1>
+<h1 class="text-center text-gray-800 text-2x1 font-mediun">Detalles del producto Selecionado: </h1>
 
 <div class="flex flex-wrap justify-evenly mt-4 gap-4">
 
