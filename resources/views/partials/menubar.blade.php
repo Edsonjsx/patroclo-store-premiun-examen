@@ -2,7 +2,7 @@
     <div class="hover:bg-orange-400 p-1 rounded cursor-pointer">
         Inicio
     </div>
-    <div class="hover:bg-orange-400 p-1 rounded cursor-pointer">
+    <div class="hover:bg-orange-400 p-1 rounded cursor-pointer"> 
         Productos
     </div>
     <div class="hover:bg-orange-400 p-1 rounded cursor-pointer">
