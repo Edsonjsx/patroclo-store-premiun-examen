@@ -13,6 +13,7 @@
 
     <main>
         <div class="max-w-[1080px] pt-5 m-auto">
+        @yield('content')
     </main>
 </body>
 </html>

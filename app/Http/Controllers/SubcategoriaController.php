@@ -11,4 +11,10 @@ class SubcategoriaController extends Controller
         $subcategorias = Subcategoria::all();
         return view('subcategorias', compact('subcategorias'));
     }
+
+    public function mostrarSubcategorias($categoriaId)
+{
+    $subcategorias = Subcategoria::where('id_categoria', $categoriaId)->get();
+    return view('subcategorias', compact('subcategorias'));
+}
 }

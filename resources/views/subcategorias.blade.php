@@ -6,14 +6,15 @@
 
 <div class="flex flex-wrap justify-evenly mt-4 gap-4">
 
-   @foreach($subcategorias as $subcategoria)
+@foreach ($subcategorias as $subcategoria)
+    <a href="{{ route('productos', $subcategoria->id_categoria) }}" class="text-center">
+        <img class="h-32 w-32 object-cover rounded-lg shadow-md" 
+             src="{{ $subcategoria->imagen_url }}" 
+             alt="{{ $subcategoria->nombre }}">
+        <p class="text-sm font-semibold mt-2">{{ $subcategoria->nombre }}</p>
+    </a>
+@endforeach
 
-    <div class="bg-gray-200 hover:bg-gray-100 w-[300px] h-[400px]  rounded cursor-pointer">
-       <img height="h-[130px] w-full object-cover rounded " src="{{ $subcategoria->imagen_url}}" alt=""> 
-       <p class="text-center mt-2 front-mediun text-gray-800">{{ $subcategoria->nombre}}</p>
-    </div>
-    
-    @endforeach
     
 </div>
 @endsection

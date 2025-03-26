@@ -12,6 +12,7 @@ class Categoria extends Model
         'nombre',
         'imagen_url'
     ];
-
     public $timestamps = false;
 }
+
+
