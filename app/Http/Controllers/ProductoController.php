@@ -11,10 +11,9 @@ class ProductoController extends Controller
         return view('productos', compact('productos'));
     }
 
-    public function mostrarProductos($subcategoriaId)
+    public function mostrarProductos($id_subcategoria)
     {
-        $productos = Productos::where('id_subcategoria', $subcategoriaId)->get();
+        $productos = Productos::where('id_subcategoria', $id_subcategoria)->get();
         return view('productos', compact('productos'));
     }
-
 }

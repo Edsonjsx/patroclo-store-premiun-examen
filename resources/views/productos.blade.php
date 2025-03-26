@@ -7,8 +7,8 @@
 <div class="flex flex-wrap justify-evenly mt-4 gap-4">
 
 @foreach ($productos as $producto)
-    <a href="{{ route('productos', $producto>id_subcategoria) }}" class="text-center">
-        <img class="h-32 w-32 object-cover rounded-lg shadow-md" 
+    <a href="{{ route('productos', $producto->id_subcategoria) }}" class="text-center">
+    <img class="h-32 w-32 object-cover rounded-lg shadow-md" 
              src="{{ $producto->imagen_url }}" 
              alt="{{ $producto->nombre }}">
         <p class="text-sm font-semibold mt-2">{{ $producto->nombre }}</p>

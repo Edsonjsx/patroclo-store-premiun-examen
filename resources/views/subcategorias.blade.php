@@ -7,7 +7,7 @@
 <div class="flex flex-wrap justify-evenly mt-4 gap-4">
 
 @foreach ($subcategorias as $subcategoria)
-    <a href="{{ route('productos', $subcategoria->id_categoria) }}" class="text-center">
+    <a href="{{ route('productos', $subcategoria->id_subcategoria) }}" class="text-center">
         <img class="h-32 w-32 object-cover rounded-lg shadow-md" 
              src="{{ $subcategoria->imagen_url }}" 
              alt="{{ $subcategoria->nombre }}">
