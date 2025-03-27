@@ -27,4 +27,7 @@
 # participante
 - Edson Ivan Soriano Hancco
 
+Link del video:
+https://drive.google.com/file/d/1sQMM56yQ0zWDv5TiJm_cKNbr53PQp7OW/view?usp=sharing
+
 
